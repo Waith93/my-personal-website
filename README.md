@@ -4,6 +4,7 @@ frontend developer.
 ## live demo
 file://wsl.localhost/Ubuntu-22.04/home/stacywaithera/Development/projects/personal-project/index.html
 
+### Structure of the project
 ## Home page
 This is the first page of my website with some of my information. And the home, about, experience, projects and contact buttons.
 
@@ -24,17 +25,12 @@ I achieved this by using the img tag
 ## linking js to our html
 <script src="styles.js"></script> 
 The script tag helps us link our html document with our styles javascript.
-## CSS
-To link my html and css l used the link tag
-<link rel="stylesheet" href="styles.css">
+## Tech Stack
+# HTML5 - for structuring the web pages
+# CSS - this was for styling and the layout of the project
+# JavaScript - for interactivity, DOM manipulation and user experience enhancements.
 
-### CSS
-For (*) this resets the default browers settings, i.e the margin and padding to 0 while the box-sizing to border box.
-The rest are self explanatory, i.e for body, this are the general stylings.
-  For header this are just the header's stylings.
-
-## JS
-#### DOM : Document Object Model 
-DOM allows JS to manipulate(create elements) , modify and update the content , structure and styling of a webpage.
+## Running the project
+Once on GitHub, you first fork the repo then clone it (git clone https://github.com......). Open it on VS code by running (code .) on your terminal then once vs code opens ,open index.html file in a browser (explorer.exe index.html)
 
 
